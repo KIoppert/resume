@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Иван Горобец — Go/Python разработчик</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #11172a;
+      color: #1e1e2f;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      background: #fff;
+      max-width: 900px;
+      margin: 40px auto;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+    h1 {
+      font-size: 32px;
+      color: #2e3a59;
+      margin-bottom: 4px;
+    }
+    .subtitle {
+      color: #5b6b93;
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+    .section {
+      margin-top: 32px;
+    }
+    .section h2 {
+      font-size: 20px;
+      border-left: 4px solid #5066d0;
+      padding-left: 12px;
+      margin-bottom: 16px;
+      color: #2e3a59;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .contacts, .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 14px;
+    }
+
+    .contacts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      text-align: center;
+    }
+    .contacts div {
+      font-size: 14px;
+    }
+    .contacts a {
+      text-decoration: none;
+      color: #5066d0;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    .contacts a:hover {
+      color: #2e3a59;
+    }
+
+    .project-card {
+      background: #f5f7ff;
+      border-radius: 8px;
+      padding: 16px;
+    }
+    .project-card a {
+      color: #5066d0;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .tag {
+      display: inline-block;
+      background: #e0e7ff;
+      color: #2e3a59;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 12px;
+      margin: 2px;
+    }
+  
+    .course-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .course {
+      background: #e9ebf5;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 15px;
+      color: #2e3a59;
+      display: inline-block;
+      max-width: fit-content;
+    }
+    .education-block {
+      display: inline-block;
+      font-weight: 700;
+      background: #e5edff;
+      padding: 12px 16px;
+      border-left: 6px solid #5066d0;
+      border-radius: 8px;
+      margin-bottom: 16px;
+    }
+    .course-entry {
+      background: #f3f5fb;
+      padding: 10px 14px;
+      border-left: 4px solid #b0b8d9;
+      border-radius: 6px;
+      margin-bottom: 10px;
+      color: #2e3a59;
+      font-weight: 500;
+    }
+    .course-entry .icon {
+      font-size: 20px;
+      margin-right: 6px;
+    }
+    .achievements-wrapper {
+      display: inline-block;
+      background: #fef9e7;
+      border-left: 6px solid #f1c40f;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 100%;
+    }
+    .achievements-wrapper ul {
+      margin: 0;
+    }
+    .achievements-wrapper li {
+      margin-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Иван Горобец</h1>
+    <div class="subtitle">💻 Go/Python разработчик</div>
+    <p>🎯 Стремлюсь пройти стажировку в области backend-разработки, чтобы развить навыки создания надежных и масштабируемых систем. Имею опыт работы в команде и лидерские качества. Пишу на Python и Go, преподаю школьникам.</p>
+
+    <div class="section">
+      <h2>📬 Контакты</h2>
+      <div class="contacts">
+        <div>📧 <strong>Email:</strong> <a href="mailto:ivan.gorobets.11@gmail.com"> ivan.gorobets.11@gmail.com </a></div>
+        <div>📲 <strong>Telegram:</strong> <a href="https://t.me/KIoppert">Kloppert</a></div>
+        <div>🐙 <strong>GitHub:</strong> <a href="https://github.com/KIoppert">github.com/KIoppert</a></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🛠️ Навыки</h2>
+      <div class="skills">
+        <ul>
+          <li><strong>Языки:</strong> Python, Go, Java</li>
+          <li><strong>Базы данных:</strong> SQLite, PostgreSQL</li>
+          <li><strong>Инструменты:</strong> Git, Docker, Bash, Linux</li>
+          <li><strong>Фреймворки:</strong> Flask, Bootstrap</li>
+          <li><strong>API и тестирование:</strong> REST API, pytest</li>
+        </ul>
+        <ul>
+          <li><strong>Личное:</strong> командная работа, лидерство, преподавание, коммуникабельность</li>
+          <li><strong>Английский:</strong> уровень B1.2</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🎓 Образование и курсы</h2>
+      <div class="education-block">
+        <strong>🎓 ИТМО, ФИТиП - ПМИ</strong> — 2023–2027
+      </div>
+      <div class="course-list">
+        <span class="course">🐍 Python от ШАДа — завершен с отличием</span>
+        <span class="course">📘 Go от Т-образования — завершен с отличием</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>💼 Опыт работы</h2>
+      <ul>
+        <li><strong>Преподаватель олимпиадного кружка по математике</strong> (2024 – н.в.)<br>
+          Проведение олимпиадных занятий для учеников 6–8 классов, подготовка учебных материалов, развитие логического мышления.</li>
+        <li><strong>Репетитор по информатике (ЕГЭ)</strong> (2023 – н.в.)<br>
+          Индивидуальные занятия по подготовке к ЕГЭ, объяснение теории, разбор задач и практика в решении сложных задач.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🚀 Проекты</h2>
+      <div class="projects">
+        <div class="project-card">
+          <div><strong>SimpleFlaskAPI</strong></div>
+          <p>Простая социальная сеть с REST API на Flask и покрытием тестами (pytest).</p>
+          <a href="https://github.com/KIoppert/SimpleFlaskAPI">🔗 Подробнее</a>
+        </div>
+        <div class="project-card">
+          <div><strong>Go Smart Home</strong></div>
+          <p>Система умного дома на Go с использованием PostgreSQL, Docker и REST API.</p>
+          <a href="https://github.com/KIoppert/go-smart-home">🔗 Подробнее</a>
+        </div>
+        <div class="project-card">
+          <div><strong>Python Projects</strong></div>
+          <p>Сборник учебных проектов: виртуальная машина, телеграм-бот и вычислительные графы.</p>
+          <a href="https://github.com/KIoppert/PythonProjects">🔗 Подробнее</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🏆 Достижения</h2>
+      <div class="achievements-wrapper">
+        <ul>
+          <li>🏅 Призер регионального этапа ВСоШ (информатика, математика)</li>
+          <li>🏅 Призер командной олимпиады НТО (профиль ППТ) — капитан команды</li>
+          <li>🏅 Призер математической олимпиады "Твоё признание финансист"</li>
+          <li>📐 Участник НТО (профиль ВРС) — капитан команды</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
